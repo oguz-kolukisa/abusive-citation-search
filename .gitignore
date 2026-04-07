@@ -1,40 +1,15 @@
-# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
-build/
-
-# Virtual environment
 .venv/
-
-# uv
 uv.lock
-
-# Secrets
 .scholar_inbox_cookie
 .token
-
-# Output (user-generated, not tracked)
 papers/
-all_candidates_raw.json
-llm_evaluated.json
-candidates.json
-deep_candidates.json
-final_candidates.json
-scholar_inbox_results.json
-scholar_inbox_expanded.json
-top_paper_ids.json
+all_candidates.json
+llm_results.json
 final_reading_list.md
-deep_search_results.md
-references.md
 *.log
-
-# IDE
 .vscode/
 .idea/
-*.swp
-
-# OS
 .DS_Store
-Thumbs.db
+.claude/

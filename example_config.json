@@ -1,31 +1,28 @@
 {
-  "paper_context": "TITLE: Your Paper Title Here\n\nABSTRACT:\nPaste your full abstract here. The LLM evaluator uses this to judge relevance.\n\nKEY CONTRIBUTIONS:\n1. First contribution\n2. Second contribution\n\nMETHODS USED: List key methods, models, datasets\n\nPAPER SECTIONS:\n- Introduction\n- Related Work\n- Method\n- Experiments\n- Conclusions",
+  "paper_context": "TITLE: Your Paper Title\n\nABSTRACT:\nYour full abstract here. The LLM uses this to judge relevance.\n\nCONTRIBUTIONS:\n1. First contribution\n2. Second contribution\n\nMETHODS: List key methods, models, datasets\n\nSECTIONS:\n- Introduction\n- Related Work\n- Method\n- Experiments\n- Conclusions",
 
-  "paper_abstract": "Paste a shorter version of your abstract here. Used for Scholar Inbox semantic search.",
+  "paper_abstract": "Shorter abstract for Scholar Inbox semantic search.",
 
   "scholar_inbox_queries": [
-    "Paste queries that describe your paper's core idea from different angles.",
-    "Each query should be 1-2 sentences, like an abstract snippet.",
-    "More queries = broader coverage but slower search."
+    "Describe your paper's core idea in 1-2 sentences.",
+    "Describe it from a different angle.",
+    "Describe the method specifically."
   ],
 
   "semantic_scholar_queries": [
     "keyword query one",
-    "keyword query two",
-    "combine key terms from your method"
+    "keyword query two combining key terms"
   ],
 
   "seed_arxiv_ids": [
-    "2004.07780",
-    "1234.56789"
+    "2004.07780"
   ],
 
   "key_authors": [
-    "Author Name One",
-    "Author Name Two"
+    "Author Name"
   ],
 
   "arxiv_queries": [
-    "all:\"your keyword\" AND all:\"another keyword\" AND cat:cs.CV"
+    "all:\"your keyword\" AND all:\"another\" AND cat:cs.CV"
   ]
 }

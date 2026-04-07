@@ -1,7 +1,7 @@
 [project]
 name = "auto-citetion"
 version = "0.1.0"
-description = "Automated paper discovery and LLM-powered relevance evaluation for academic research"
+description = "Automated paper discovery and LLM-powered citation evaluation"
 requires-python = ">=3.11"
 readme = "README.md"
 license = "MIT"
@@ -12,13 +12,3 @@ dependencies = [
     "pillow>=10.0.0",
     "torchvision>=0.18.0",
 ]
-
-[project.scripts]
-auto-citetion = "auto_citetion.cli:main"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/auto_citetion"]
